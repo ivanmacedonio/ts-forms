@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.container h1{
+    margin-bottom: 2rem;
+    background-color: rgb(83, 83, 183);
+    color: white;
+    padding: 10px 50px;
+    border-radius: 15px;
+}
+
+.container h2{
+    margin-bottom: 1rem;
+    transition: color 0.2s ease;
+    border-radius: 5px;
+    padding: 20px 40px;
+    background-color: rgb(245, 244, 244);
+    box-shadow: 2px 5px 6px 0 rgb(0, 0, 0, 0.2);
+    
+}
+
+.container h2:hover{
+    cursor: pointer;
+    color: purple;
+}
+
+.container button{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    padding: 10px 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container h5{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+li{
+    background-color: rgb(196, 195, 195);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.1);
+}
